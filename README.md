@@ -167,16 +167,6 @@ This project was developed as part of MRKT671 coursework. For collaboration:
 
 This project is part of academic coursework. All analysis and findings are for educational and research purposes.
 
-## 👥 Team
-
-- **Data Science Team**: MRKT671 Group Project
-- **Course**: Customer Analytics & Marketing Science
-- **Institution**: [Your University]
-
-## 📞 Contact
-
-For questions about this analysis or collaboration opportunities, please reach out to the project team.
-
 ---
 
 *This project demonstrates advanced customer analytics techniques including machine learning, survival analysis, and customer lifetime value modeling for strategic business decision-making.* 
