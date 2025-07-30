@@ -1,0 +1,26 @@
+name: telechurn
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - scikit-survival
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pytest
+  - flake8
+  - black
+  - ipykernel
+  - openpyxl
+  - pyarrow
+  - xgboost
+  - pytorch
+  - scipy
+  - pip
+  - pip:
+    - deepsurv
+    - bayesian-optimization 

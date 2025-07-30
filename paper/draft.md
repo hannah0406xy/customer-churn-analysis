@@ -1,0 +1,13 @@
+# Customer Lifetime Value Optimization and Retention Strategy: A Survival Analysis Approach to Telecom Churn Management
+
+## Introduction
+
+In the hypercompetitive telecommunications industry, customer churn presents a significant challenge with direct impact on revenue stability and growth. This study leverages advanced survival analysis techniques and machine learning models to develop actionable strategies for customer retention and lifetime value optimization. By integrating survival modeling with segmentation and pricing analytics, we provide a comprehensive framework that transforms churn prediction from a binary classification problem into a robust, time-based targeting mechanism.
+
+Our analysis of telecom customer data revealed distinct survival patterns across customer segments, with significant differences in churn behavior between revenue, age, and service segments (p < 0.05). The Cox Proportional Hazards model identified key churn predictors including monthly usage (coef = 0.314, p < 0.001) and customer care interactions (coef = 0.023, p < 1e-20), validating that higher usage correlates with increased churn risk while customer age acts as a protective factor (coef = -0.127, p < 1e-96).
+
+Building on these survival insights, we calculated individual Customer Lifetime Value (CLV) estimates, finding an average CLV of $28.45 with substantial variation across segments. Notably, older customers demonstrated 3.24× higher median CLV ($34.57) compared to younger customers ($6.43), highlighting the importance of age-sensitive retention strategies. We further developed a strategic targeting matrix by combining CLV quintiles with churn risk profiles, enabling precise resource allocation for retention efforts.
+
+Our pricing optimization model, employing a two-part tariff structure, identified an optimal fixed fee of $200 and variable rate of 50% of monthly revenue, potentially generating an estimated annual profit of $19 million. Segment-specific optimization revealed that targeted approaches to high-value, high-risk customers could yield $1.93 million in profit from this segment alone. Importantly, our simulation of retention discount scenarios demonstrated that blanket discounts reduce profit across all segments, reinforcing the need for highly targeted retention initiatives.
+
+This paper presents a methodologically sound approach to churn management that moves beyond traditional reactive measures toward proactive, value-based customer engagement. The framework presented not only enhances prediction accuracy but also provides actionable, economically justified retention strategies that maximize customer lifetime value while optimizing operational resource allocation. 

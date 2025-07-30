@@ -1,0 +1,90 @@
+# Correlation Analysis Report
+
+## Highly Collinear Feature Pairs (|r| > 0.9)
+| Feature 1 | Feature 2 | Correlation |
+|-----------|-----------|-------------|
+| rev_Mean | avg3rev | 0.924 |
+| mou_Mean | avg3mou | 0.979 |
+| mou_Mean | avg6mou | 0.925 |
+| ovrmou_Mean | ovrrev_Mean | 0.956 |
+| ovrmou_Mean | vceovr_Mean | 0.953 |
+| ovrrev_Mean | vceovr_Mean | 0.995 |
+| datovr_Mean | datovr_Range | 0.939 |
+| roam_Mean | roam_Range | 0.977 |
+| ovrmou_Range | ovrrev_Range | 0.958 |
+| ovrmou_Range | vceovr_Range | 0.953 |
+| ovrrev_Range | vceovr_Range | 0.993 |
+| blck_dat_Mean | blck_dat_Range | 0.960 |
+| unan_dat_Mean | unan_dat_Range | 0.913 |
+| plcd_vce_Mean | comp_vce_Mean | 0.985 |
+| plcd_vce_Mean | attempt_Mean | 0.998 |
+| plcd_vce_Mean | complete_Mean | 0.983 |
+| plcd_dat_Mean | comp_dat_Mean | 0.981 |
+| plcd_dat_Mean | peak_dat_Mean | 0.907 |
+| plcd_dat_Mean | opk_dat_Mean | 0.922 |
+| recv_vce_Mean | inonemin_Mean | 0.967 |
+| comp_vce_Mean | peak_vce_Mean | 0.910 |
+| comp_vce_Mean | attempt_Mean | 0.984 |
+| comp_vce_Mean | complete_Mean | 0.998 |
+| comp_dat_Mean | peak_dat_Mean | 0.922 |
+| comp_dat_Mean | opk_dat_Mean | 0.941 |
+| ccrndmou_Mean | cc_mou_Mean | 0.989 |
+| mou_cdat_Mean | mou_opkd_Mean | 0.958 |
+| peak_vce_Mean | complete_Mean | 0.907 |
+| attempt_Mean | complete_Mean | 0.986 |
+| plcd_vce_Range | comp_vce_Range | 0.955 |
+| plcd_vce_Range | attempt_Range | 0.996 |
+| plcd_vce_Range | complete_Range | 0.950 |
+| plcd_dat_Range | comp_dat_Range | 0.981 |
+| plcd_dat_Range | opk_dat_Range | 0.919 |
+| recv_vce_Range | inonemin_Range | 0.947 |
+| comp_vce_Range | attempt_Range | 0.951 |
+| comp_vce_Range | complete_Range | 0.993 |
+| comp_dat_Range | opk_dat_Range | 0.938 |
+| ccrndmou_Range | cc_mou_Range | 0.989 |
+| mou_cdat_Range | mou_opkd_Range | 0.953 |
+| attempt_Range | complete_Range | 0.956 |
+| totcalls | totmou | 0.926 |
+| totcalls | adjmou | 0.925 |
+| totcalls | adjqty | 1.000 |
+| totmou | adjmou | 1.000 |
+| totmou | adjqty | 0.926 |
+| totrev | adjrev | 0.998 |
+| adjmou | adjqty | 0.926 |
+| avgmou | avg6mou | 0.915 |
+| avgqty | avg3qty | 0.902 |
+| avgqty | avg6qty | 0.927 |
+| avg3mou | avg6mou | 0.943 |
+| avg3qty | avg6qty | 0.951 |
+| mailordr | mailresp | 0.969 |
+| eqpdays | device_age_months | 1.000 |
+| revenue_per_minute | price_per_minute | 0.923 |
+| revenue_per_minute | price_quality_ratio | 0.904 |
+| care_per_month | care_intensity | 1.000 |
+| avg_monthly_minutes | avg_monthly_calls | 0.905 |
+| drop_rate | service_quality_score | -0.986 |
+| drop_rate | care_quality | 0.973 |
+| drop_rate | drop_block_interaction | -0.935 |
+| drop_rate | service_care_impact | 0.944 |
+| block_rate | service_quality_score | -0.959 |
+| block_rate | care_quality | 0.923 |
+| service_quality_score | care_quality | -0.978 |
+| service_quality_score | drop_block_interaction | 0.943 |
+| service_quality_score | service_care_impact | -0.949 |
+| peak_usage_ratio | off_peak_usage_ratio | 0.996 |
+| peak_usage_ratio | weekend_usage_ratio | 0.994 |
+| peak_usage_ratio | usage_volatility | 0.990 |
+| peak_usage_ratio | trend_volatility | 0.901 |
+| off_peak_usage_ratio | weekend_usage_ratio | 0.995 |
+| off_peak_usage_ratio | usage_volatility | 0.991 |
+| weekend_usage_ratio | usage_volatility | 0.987 |
+| care_quality | drop_block_interaction | -0.951 |
+| care_quality | service_care_impact | 0.962 |
+| price_per_minute | price_quality_ratio | 0.975 |
+| usage_volatility | trend_volatility | 0.907 |
+| quality_revenue_impact | customer_value_score | 0.923 |
+| drop_block_interaction | service_care_impact | -0.998 |
+| usage_pattern_score | trend_volatility | 0.951 |
+
+## Suggested Features to Drop
+adjmou, adjqty, adjrev, attempt_Mean, attempt_Range, avg3mou, avg3qty, avg3rev, avg6mou, avg6qty, avg_monthly_calls, blck_dat_Range, care_intensity, care_quality, cc_mou_Mean, cc_mou_Range, comp_dat_Mean, comp_dat_Range, comp_vce_Mean, comp_vce_Range, complete_Mean, complete_Range, customer_value_score, datovr_Range, device_age_months, drop_block_interaction, inonemin_Mean, inonemin_Range, mailresp, mou_opkd_Mean, mou_opkd_Range, off_peak_usage_ratio, opk_dat_Mean, opk_dat_Range, ovrrev_Mean, ovrrev_Range, peak_dat_Mean, peak_vce_Mean, price_per_minute, price_quality_ratio, roam_Range, service_care_impact, service_quality_score, totmou, trend_volatility, unan_dat_Range, usage_volatility, vceovr_Mean, vceovr_Range, weekend_usage_ratio

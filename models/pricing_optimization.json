@@ -1,0 +1,81 @@
+{
+  "base_optimization": {
+    "fixed_fee": 100.0,
+    "variable_rate": 0.3,
+    "profit": 10700000.0,
+    "success": true,
+    "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+  },
+  "segment_optimization": {
+    "Q4 | High Risk": {
+      "fixed_fee": 100.0,
+      "variable_rate": 0.3,
+      "profit": 1045186.6803205123,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    },
+    "Q5 (Highest) | Low Risk": {
+      "fixed_fee": 100.0,
+      "variable_rate": 0.3,
+      "profit": 1038855.5317838386,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    },
+    "Q5 (Highest) | High Risk": {
+      "fixed_fee": 100.0,
+      "variable_rate": 0.3,
+      "profit": 1068617.4093353553,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    },
+    "Q4 | Low Risk": {
+      "fixed_fee": 100.0,
+      "variable_rate": 0.3,
+      "profit": 1054323.9079050198,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    },
+    "Q3 | Low Risk": {
+      "fixed_fee": 100.0,
+      "variable_rate": 0.3,
+      "profit": 1048736.5446452005,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    },
+    "Q2 | Low Risk": {
+      "fixed_fee": 100.0,
+      "variable_rate": 0.3,
+      "profit": 1075616.772289582,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    },
+    "Q3 | High Risk": {
+      "fixed_fee": 100.0,
+      "variable_rate": 0.3,
+      "profit": 1070838.9085528208,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    },
+    "Q1 (Lowest) | High Risk": {
+      "fixed_fee": 100.0,
+      "variable_rate": 0.3,
+      "profit": 1053776.344714162,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    },
+    "Q1 (Lowest) | Low Risk": {
+      "fixed_fee": 100.0,
+      "variable_rate": 0.3,
+      "profit": 1182684.8101383983,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    },
+    "Q2 | High Risk": {
+      "fixed_fee": 100.0,
+      "variable_rate": 0.3,
+      "profit": 1061363.090315111,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  }
+}
