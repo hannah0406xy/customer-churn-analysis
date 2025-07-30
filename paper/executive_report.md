@@ -1,8 +1,5 @@
 # Customer Lifetime Value Optimization and Retention Strategy: A Survival Analysis Approach to Telecom Churn Management
 
-## Group 671 - MRKT/INSY 671
-Julian Bartlett, Ananya Sharma, Michael Chen, Samantha Rodriguez
-
 ---
 
 ## Introduction
